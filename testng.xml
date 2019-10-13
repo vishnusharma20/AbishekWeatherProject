@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WeatherData">
+
+    <listeners>
+        <listener class-name="TestNGListener"/>
+    </listeners>
+
+    <test thread-count="1" name="Test">
+        <classes>
+            <class name="DownloadWeatherData"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
