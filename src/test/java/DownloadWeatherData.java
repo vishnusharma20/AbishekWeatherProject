@@ -47,12 +47,12 @@ public class DownloadWeatherData {
     }
 
    // @Test(priority = 1)
-    public void onFailure(){
+  /*  public void onFailure(){
 
         System.out.println("Incorrect URL for report");
         Assert.assertTrue(false);
 
-    }
+    }*/
 
 
 }
