@@ -17,7 +17,6 @@ public class loadMultipledata {
 	@BeforeMethod
 	public void setup()
 	{
-
 		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\chrome\\geckoDriver.exe");
 		driver =new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
